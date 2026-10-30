@@ -1,0 +1,15 @@
+name: Validate question bank
+on:
+  push:
+    paths: ['index.html','scripts/validate-questions.cjs','.github/workflows/validate-questions.yml']
+  pull_request:
+    paths: ['index.html','scripts/validate-questions.cjs','.github/workflows/validate-questions.yml']
+jobs:
+  questions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/validate-questions.cjs
