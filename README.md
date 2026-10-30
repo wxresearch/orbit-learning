@@ -38,8 +38,6 @@ Orbit is structured for deployment through GitHub Pages:
 
 https://wxresearch.github.io/orbit-learning/
 
-To enable hosting, open **Settings → Pages** in the repository, choose **Deploy from a branch**, and select the `main` branch with `/(root)` as the folder. The website will become available after deployment.
-
 ## Study Planning
 
 Orbit's study planner organizes exam preparation around a selected course, target date, daily study time, and topics that need additional attention. Students can also paste or upload text-based notes, generate daily tasks, mark them complete, and download a study schedule.
