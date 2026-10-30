@@ -46,7 +46,7 @@ The current planner uses rules and topic lists in the browser. AI-based note und
 
 ## Question Bank Quality Checks
 
-The current practice bank includes 42 original questions (15 AMC 10, 15 AMC 12, and 12 other subject questions). Newer AMC questions have difficulty levels from 2 to 4 on a five-level scale. The levels are editorial estimates, not official AMC difficulty classifications.
+The current practice bank includes 70 original questions (20 AMC 10, 20 AMC 12, and 30 other subject questions). AMC questions now include difficulty labels from 2 to 5 on a five-level scale. The levels are editorial estimates, not official AMC difficulty classifications.
 
 Run `node scripts/validate-questions.cjs` to check question structure, duplicate stems, difficulty values, and keyed answers against a separately curated fixture. The GitHub Actions workflow runs the checks on changes to the bank or validator. This test catches inconsistencies but does not independently solve arbitrary questions; new problems still require mathematical review.
 
