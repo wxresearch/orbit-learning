@@ -9,8 +9,8 @@ Rather than treating exam preparation, class notes, and daily study habits as se
 - **All-in-One Course Library:** Browse AMC 10/12, SAT, ACT, AP, and regular school subjects.
 - **AMC Competition Mathematics:** Explore algebra, geometry, number theory, combinatorics, and problem-solving topics.
 - **SAT and ACT Preparation:** Access test-specific topic outlines and introductory practice questions.
-- **AP Course Support:** Study topics from AP Calculus, AP Biology, AP Physics, and AP U.S. History.
-- **School Subject Learning:** Explore mathematics, science, English, and history.
+- **AP Course Support:** Study topics from AP Calculus BC, AP Physics 1, AP Environmental Science, AP Statistics, and AP European History.
+- **School Subject Learning:** Explore science, English, and history.
 - **Interactive Practice:** Answer sample questions and receive immediate explanations.
 - **Personalized Study Plans:** Generate daily tasks using an exam date, available study time, and difficult topics.
 - **Notes-Based Planning:** Paste notes or upload TXT and Markdown files to help organize a study schedule.
