@@ -1,31 +1,61 @@
-# Orbit — Your Learning Space
+# Orbit — Personalized Learning, Exam Preparation, and Gamified Studying
 
-A desktop-first, responsive study platform prototype combining game-like learning with practical exam preparation.
+Orbit is a web-based learning platform designed to help students study school subjects, prepare for competitive and standardized exams, and organize their learning through **interactive practice**, **personalized study schedules**, and **game-like progress tracking**. It brings AMC mathematics, SAT and ACT preparation, AP courses, and everyday classroom subjects into one desktop-first application that also adapts to mobile screens.
 
-## Supported study tracks
-- AMC 10 and AMC 12
-- SAT Math and Reading & Writing
-- ACT English, Math, Reading, and Science Reasoning
-- AP Calculus, AP Biology, AP Physics, and AP U.S. History
-- Regular mathematics, science, English, and history classes
+Rather than treating exam preparation, class notes, and daily study habits as separate activities, Orbit brings them together in one place. Students can explore subject-specific topics, answer practice questions with explanations, and turn their goals and notes into manageable study tasks.
 
-## Included in version 1
-- Course and topic browser
-- Short sample quizzes with explanations
-- XP and progress tracking
-- Pip, an owl study buddy
-- Exam study-plan generator based on exam date, topics, and available time
-- Notes pasted or uploaded in `.txt` or `.md` format
-- Downloadable study schedules
-- Responsive desktop and mobile layout
+## Features
 
-Open [index.html](./index.html) locally to try the app. No installation, build system, account, or API key is needed.
+- **All-in-One Course Library:** Browse AMC 10/12, SAT, ACT, AP, and regular school subjects.
+- **AMC Competition Mathematics:** Explore algebra, geometry, number theory, combinatorics, and problem-solving topics.
+- **SAT and ACT Preparation:** Access test-specific topic outlines and introductory practice questions.
+- **AP Course Support:** Study topics from AP Calculus, AP Biology, AP Physics, and AP U.S. History.
+- **School Subject Learning:** Explore mathematics, science, English, and history.
+- **Interactive Practice:** Answer sample questions and receive immediate explanations.
+- **Personalized Study Plans:** Generate daily tasks using an exam date, available study time, and difficult topics.
+- **Notes-Based Planning:** Paste notes or upload TXT and Markdown files to help organize a study schedule.
+- **Gamified Progress:** Earn XP for correct practice answers and track completed activities.
+- **Learning Companion:** Meet Pip, the owl mascot, in the learning dashboard.
+- **Local Progress Saving:** Keep earned XP, completed sample questions, and study plans in browser storage.
+- **Responsive Interface:** Use the desktop-first dashboard on laptops, desktops, and smaller mobile screens.
 
-## Publish using GitHub Pages
-1. Open this repository's **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select **main** and **/(root)**, then save.
-4. After deployment, visit https://wxresearch.github.io/orbit-learning/
+## Getting Started
 
-## Important limitations
-This is a frontend prototype. The study planner uses local scheduling logic, not AI analysis. Practice currently contains a small set of original sample questions, not complete courses or official exam question banks. Progress is saved locally in the browser, not synchronized between devices. PDFs and image-based notes, authentic AI tutoring, and accounts are future work. Orbit is not affiliated with the College Board, ACT, or other exam providers.
+Orbit is a static HTML, CSS, and JavaScript application. No installation, API key, or build tools are required.
+
+Clone the repository:
+
+```bash
+git clone https://github.com/wxresearch/orbit-learning.git
+cd orbit-learning
+```
+
+Open `index.html` in a web browser to explore the learning dashboard, choose a course, try sample practice questions, or create a study plan.
+
+## Online Website
+
+Orbit is structured for deployment through GitHub Pages:
+
+https://wxresearch.github.io/orbit-learning/
+
+To enable hosting, open **Settings → Pages** in the repository, choose **Deploy from a branch**, and select the `main` branch with `/(root)` as the folder. The website will become available after deployment.
+
+## Study Planning
+
+Orbit's study planner organizes exam preparation around a selected course, target date, daily study time, and topics that need additional attention. Students can also paste or upload text-based notes, generate daily tasks, mark them complete, and download a study schedule.
+
+The current planner uses rules and topic lists in the browser. AI-based note understanding, automatic flashcard generation, adaptive question selection, and more detailed mastery tracking are future development goals.
+
+## Project Scope
+
+Orbit is an early-stage educational prototype. It includes a small set of original sample practice questions and introductory topic outlines, not full courses or official exam question banks. The planner does not yet use an AI model. Uploaded text is handled locally by the browser, and progress is stored in browser local storage rather than a user account or synchronized database. PDF uploads, cross-device accounts, and AI tutoring are not yet implemented.
+
+Orbit is an independent project and is not affiliated with or endorsed by the organizations that administer the AMC, SAT, ACT, or AP examinations.
+
+## Technologies and Topics
+
+**HTML · CSS · JavaScript · Web development · Responsive design · Educational technology (EdTech) · Personalized learning · Study planning · Gamified learning · Practice quizzes · AMC 10 · AMC 12 · SAT preparation · ACT preparation · AP courses · Student productivity · Local storage**
+
+## Project Repository
+
+https://github.com/wxresearch/orbit-learning
