@@ -50,6 +50,21 @@ The current practice bank includes 70 original questions (20 AMC 10, 20 AMC 12, 
 
 Run `node scripts/validate-questions.cjs` to check question structure, duplicate stems, difficulty values, and keyed answers against a separately curated fixture. The GitHub Actions workflow runs the checks on changes to the bank or validator. This test catches inconsistencies but does not independently solve arbitrary questions; new problems still require mathematical review.
 
+## New Learning Hub Features
+
+Orbit now includes eight additional local-first sections:
+
+- **Daily Missions:** Three daily practice/study targets and a one-time 30 XP reward when all are completed.
+- **Mistake Notebook:** Saved incorrect answers, explanations, personal notes, and retry links.
+- **Interactive Lessons:** Short introductory explanations, worked examples and quick checks for selected topics; other topics use a general study prompt.
+- **Learning Paths:** Course topic routes with lesson and practice shortcuts.
+- **Focus Mode:** A 25-minute foreground study timer with locally recorded completed sessions.
+- **Achievements and Cosmo:** Milestone badges and locally saved Cosmo accent colors.
+- **Exam Readiness:** Practice accuracy and average time by exam course (not predictive scores).
+- **Universal Search:** Search existing questions, course topics, flashcards and saved notes.
+
+These features run inside the existing static GitHub Pages site. They preserve the `orbit-v1` localStorage key and existing XP and progress. The timer works while the page is open; there is no cloud sync or background notification service. Interactive lessons are introductory material, not a complete curriculum.
+
 ## Expanded Learning Features
 
 - **Adaptive practice (experimental):** Question history and an estimated topic mastery score guide question selection. Difficulty labels are still limited by the available question bank.
