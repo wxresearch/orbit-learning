@@ -44,9 +44,22 @@ Orbit's study planner organizes exam preparation around a selected course, targe
 
 The current planner uses rules and topic lists in the browser. AI-based note understanding, automatic flashcard generation, adaptive question selection, and more detailed mastery tracking are future development goals.
 
+## Expanded Learning Features
+
+- **Adaptive practice (experimental):** Question history and an estimated topic mastery score guide question selection. Difficulty labels are still limited by the available question bank.
+- **Learning analytics:** Track recorded attempts, accuracy, weak topics, and approximate mastery.
+- **Study-plan connections:** Launch practice from daily tasks and reschedule unfinished tasks.
+- **Flashcards:** Create and review cards using a basic spaced-review interval.
+- **Study materials:** Paste or upload TXT/Markdown notes, review extracted lines, and create simple review cards or tasks.
+- **Exam practice:** Timed, original-question mini-tests with a post-test summary. These are not official timed full-length examinations.
+
+## Planned Infrastructure
+
+A future secure server is needed for genuine AI tutoring, trustworthy PDF/PowerPoint extraction, AI-generated questions grounded in source documents, accounts, and cross-device synchronization. None of these are currently provided by the static GitHub Pages website. API secrets should never be added to frontend JavaScript.
+
 ## Project Scope
 
-Orbit is an early-stage educational prototype. It includes a small set of original sample practice questions and introductory topic outlines, not full courses or official exam question banks. The planner does not yet use an AI model. Uploaded text is handled locally by the browser, and progress is stored in browser local storage rather than a user account or synchronized database. PDF uploads, cross-device accounts, and AI tutoring are not yet implemented.
+Orbit is an early-stage educational prototype. It includes a small set of original sample practice questions and introductory topic outlines, not full courses or official exam question banks. The planner does not yet use an AI model; adaptive selection uses heuristics, not machine learning. Uploaded text is handled locally by the browser, and progress is stored in browser local storage rather than a user account or synchronized database. PDF and PowerPoint parsing, cross-device accounts, and AI tutoring are not yet implemented.
 
 Orbit is an independent project and is not affiliated with or endorsed by the organizations that administer the AMC, SAT, ACT, or AP examinations.
 
