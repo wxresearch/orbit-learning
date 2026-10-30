@@ -15,7 +15,7 @@ Rather than treating exam preparation, class notes, and daily study habits as se
 - **Personalized Study Plans:** Generate daily tasks using an exam date, available study time, and difficult topics.
 - **Notes-Based Planning:** Paste notes or upload TXT and Markdown files to help organize a study schedule.
 - **Gamified Progress:** Earn XP for correct practice answers and track completed activities.
-- **Learning Companion:** Meet Pip, the owl mascot, in the learning dashboard.
+- **Learning Companion:** Meet Cosmo, the smiling planet mascot, in the learning dashboard.
 - **Local Progress Saving:** Keep earned XP, completed sample questions, and study plans in browser storage.
 - **Responsive Interface:** Use the desktop-first dashboard on laptops, desktops, and smaller mobile screens.
 
