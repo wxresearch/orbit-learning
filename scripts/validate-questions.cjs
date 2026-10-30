@@ -22,9 +22,10 @@ const newExpected=[
 ['amc12','Advanced Algebra','7'],['amc12','Advanced Algebra','126'],['amc12','Geometry','3'],['amc12','Geometry','24'],['amc12','Combinatorics','80'],['amc12','Combinatorics','1260'],
 ['amc12','Number Theory','144'],['amc12','Number Theory','9'],['amc12','Trigonometry','5/12'],['amc12','Trigonometry','4/5']
 ];
-assert.equal(questions.length,expected.length+newExpected.length,'Update expected answers for every added or removed question');
+const expansionExpected=[["amc10","Algebra","625"],["amc10","Geometry","182−25π"],["amc10","Counting and Probability","2/5"],["amc10","Number Theory","3"],["amc10","Problem-Solving Strategies","18/5"],["amc12","Advanced Algebra","433"],["amc12","Geometry","84"],["amc12","Combinatorics","90"],["amc12","Number Theory","104"],["amc12","Trigonometry","−24/25"],["sat","Advanced Math","2"],["sat","Problem Solving and Data Analysis","40%"],["sat","Geometry and Trigonometry","81π"],["sat","Reading and Writing","However"],["act","English","The group of players is ready."],["act","Math","11"],["act","Reading","The trail may help nearby businesses."],["act","Science Reasoning","Negative association"],["apcalc","Integration and Accumulation of Change","9"],["apcalc","Infinite Sequences and Series","2"],["apphysics","Force and Translational Dynamics","3 m/s²"],["apphysics","Linear Momentum","2 m/s"],["apenv","Energy Resources and Consumption","0.5 kWh"],["apenv","Global Change","Carbon dioxide"],["apstats","Probability, Random Variables, and Probability Distributions","3.5"],["apstats","Sampling Distributions","1/2"],["apeuro","Age of Reformation","Ninety-Five Theses"],["apeuro","Industrialization and Its Effects","Spinning jenny"]];
+assert.equal(questions.length,expected.length+newExpected.length+expansionExpected.length,'Update expected answers for every added or removed question');
 const expectedMap=new Map();
-for(const [course,topic,answer] of [...expected,...newExpected]){
+for(const [course,topic,answer] of [...expected,...newExpected,...expansionExpected]){
  const key=course+'|'+topic+'|'+answer;
  expectedMap.set(key,(expectedMap.get(key)||0)+1);
 }
