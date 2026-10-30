@@ -44,6 +44,12 @@ Orbit's study planner organizes exam preparation around a selected course, targe
 
 The current planner uses rules and topic lists in the browser. AI-based note understanding, automatic flashcard generation, adaptive question selection, and more detailed mastery tracking are future development goals.
 
+## Question Bank Quality Checks
+
+The current practice bank includes 42 original questions (15 AMC 10, 15 AMC 12, and 12 other subject questions). Newer AMC questions have difficulty levels from 2 to 4 on a five-level scale. The levels are editorial estimates, not official AMC difficulty classifications.
+
+Run `node scripts/validate-questions.cjs` to check question structure, duplicate stems, difficulty values, and keyed answers against a separately curated fixture. The GitHub Actions workflow runs the checks on changes to the bank or validator. This test catches inconsistencies but does not independently solve arbitrary questions; new problems still require mathematical review.
+
 ## Expanded Learning Features
 
 - **Adaptive practice (experimental):** Question history and an estimated topic mastery score guide question selection. Difficulty labels are still limited by the available question bank.
